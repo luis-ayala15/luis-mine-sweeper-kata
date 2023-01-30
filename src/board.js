@@ -1,18 +1,25 @@
-const Board = () => {
-  const board = [
-    ['', '', ''],
-    ['', '', ''],
-    ['', '', ''],
-  ];
-  return board;
-};
+class Board {
+  constructor() {
+    this.board = [
+      ['', '', ''],
+      ['', '', ''],
+      ['', '', ''],
+    ];
+    this.totalBombs = 0;
+    this.totalSquareMissing = this.board.length * this.board[0].length;
+  }
 
-const initializeBoardWithMines = () => {
-  const boardWithMines = Board();
-  boardWithMines[0][0] = 'M';
-  boardWithMines[1][1] = 'M';
-  boardWithMines[2][2] = 'M';
-  return boardWithMines;
-};
+  initializeBoardWithMines() {
+    const numberOfBombs = this.board.length;
+    for (let i = 0; i < numberOfBombs; i++) {
+      const n = Math.floor(Math.random() * numberOfBombs);
+      const m = Math.floor(Math.random() * numberOfBombs);
+      this.board[n][m] = 'M';
+    }
+    this.totalBombs = numberOfBombs;
+    this.totalSquareMissing = this.totalSquareMissing - numberOfBombs;
+    return this;
+  }
+}
 
-module.exports = { Board, initializeBoardWithMines };
+module.exports = Board;

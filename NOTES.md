@@ -32,3 +32,17 @@ WTF 1: The board only contain Strings
 ✅ Create a test to clear a square in the board that is not a bomb
 ✅ Create a test to clear a square in the board that is a bomb
 ✅ commit and Push
+
+POMODORO 3
+WTF 2: The board is not a class, the board is harcoded
+
+✅ Change test to a board class into a class
+✅ Change test to initialize the board to a random bomb generator
+✅ Create test to check the number of bombs in the board
+✅ Create test to check the number of total square missing
+✅ Refactor test to user a board state
+✅ Return the number of adjacent bombs after clearing a square
+✅ commit and push
+
+POMODORO 4
+🚧 Clear adjacent squares if a square with no adjacent mines is clear
