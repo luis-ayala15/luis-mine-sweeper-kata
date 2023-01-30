@@ -1,7 +1,7 @@
 {
-  "name": "template",
+  "name": "luis-mine-sweeper-kata",
   "version": "1.0.0",
-  "description": "",
+  "description": "luis-mine-sweeper-kata",
   "main": "index.js",
   "scripts": {
     "lint:fix": "eslint --cache --fix",
@@ -41,5 +41,12 @@
     "*.{js,css,md,yml}": [
       "npm run prettier:fix"
     ]
-  }
+  },
+  "repository": {
+    "url": "git+git@github.com:luis-ayala15/luis-mine-sweeper-kata.git"
+  },
+  "bugs": {
+    "url": "https://github.com/luis-ayala15/luis-mine-sweeper-kata/issues"
+  },
+  "homepage": "https://github.com/luis-ayala15/luis-mine-sweeper-kata#readme"
 }
