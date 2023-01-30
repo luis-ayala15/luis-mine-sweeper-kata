@@ -23,3 +23,12 @@ POMODORO 1
 ✅ Rename Test and files
 ✅ Create board test
 ✅ commit and push
+
+POMODORO 2
+WTF 1: The board only contain Strings
+
+✅ Create test to initialize the number of bombs in the board
+✅ Create test to mark a mine in the board with a flag
+✅ Create a test to clear a square in the board that is not a bomb
+✅ Create a test to clear a square in the board that is a bomb
+✅ commit and Push
