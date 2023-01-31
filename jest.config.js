@@ -1,8 +1,7 @@
 const config = {
   testEnvironment: 'node',
   collectCoverage: true,
-  collectCoverageFrom: ['source/**/*.js', 'source/*.js'],
-  coverageDirectory: './coverage',
+  collectCoverageFrom: ['src/**/*.js', 'src/*.js'],
   coverageThreshold: {
     global: {
       branches: 100,

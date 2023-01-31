@@ -45,4 +45,9 @@ WTF 2: The board is not a class, the board is harcoded
 ✅ commit and push
 
 POMODORO 4
-🚧 Clear adjacent squares if a square with no adjacent mines is clear
+WTF 2 coverage is not 100, boardStateCountAdjacent complexity is 22
+✅ Improve coverage from 88 to 100
+✅ create test to Clear adjacent squares if a square with no adjacent mines is clear
+✅ check and reduce complexity
+✅ Create test to play mineSweeper game
+✅commit and push
